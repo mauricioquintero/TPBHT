@@ -18,6 +18,7 @@ public class Product {
     @NotBlank(message = "Price is mandatory")
     private int price;
 
+
     public Product(long id, String name, int price) {
         this.id = id;
         this.name = name;
